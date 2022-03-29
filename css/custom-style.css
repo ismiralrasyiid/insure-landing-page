@@ -1,0 +1,123 @@
+:root{
+    --dark-violet:hsla(256, 26%, 20%,1);
+}
+
+header div.container-fluid{
+    background-color: var(--dark-violet);
+}
+
+#howwework div.container{
+    background-color: var(--dark-violet);
+}
+
+header .custom-margin{
+    margin-top: clamp(400px, calc(50px + 120vw), 700px);
+}
+
+h1{
+    font-size: 48px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'DM Serif Display', serif;
+}
+
+p,a{
+    font-family: 'Karla', sans-serif;
+}
+
+a{
+    font-weight: 700;
+}
+
+.btn.btn-outline-dark{
+    border-radius: 0;
+    font-weight: 700;
+    border: 2px solid;
+}
+
+.btn.btn-outline-dark:hover{
+    transition: ease-in 0.05s;
+}
+
+.btn.btn-outline-light{
+    border-radius: 0;
+    font-weight: 700;
+    border: 2px solid;
+}
+
+.btn.btn-outline-light:hover{
+    transition: ease-in 0.05s;
+}
+
+.navbar-nav.ms-auto.mb-2.mb-md-0.text-uppercase{
+    letter-spacing: 1px;
+    font-size: .8rem;
+}
+
+header.navbar-brand.text-center.text-sm-start p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.nav-link.link-secondary:hover{
+    text-decoration: underline;
+}
+
+footer .nav-item.mx-2:hover{
+    transform: translateY(-3px);
+    filter: brightness(30%);
+    transition: ease-in 0.15s;
+}
+
+.btn.btn-outline-light{
+    background-color: var(--dark-violet);
+}
+
+.btn.btn-outline-light:hover{
+    background-color: white;
+    border: 2px solid white;
+    color: var(--dark-violet);
+}
+
+.btn-personal{
+    position: fixed;
+    right: 15px;
+    bottom: 45px;
+    z-index: 1300;
+}
+.btn-personal a{
+    display: flex;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+}
+.btn-personal a:hover .arrow-body{
+    text-decoration: underline;
+    transition: all .2s ease;
+}
+
+.btn-personal .arrow-head{
+    height: 60px;
+    width: 40px;
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    background: var(--dark-violet);
+}
+.btn-personal .arrow-body{
+    font-size: 11px;
+    line-height: 4px;
+    padding-top: 7px;
+    height: 40px;
+    width: 80px;
+    background: var(--dark-violet);
+}
+@media only screen and (min-width: 1601px) {
+    #d-1445-none-1{
+        display: none;
+    }
+    #d-1445-none-2{
+        display: none;
+    }
+}
